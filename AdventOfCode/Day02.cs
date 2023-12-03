@@ -7,7 +7,7 @@ public class Day02 : BaseDay
 
     public Day02()
     {
-        _input = File.ReadAllText(InputFilePath).Split(Environment.NewLine);
+        _input = File.ReadAllLines(InputFilePath);
     }
 
     public override ValueTask<string> Solve_1() => new(_input.Select(ParseLine).Sum().ToString());

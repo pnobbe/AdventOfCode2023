@@ -1,7 +1,4 @@
-﻿using System.Drawing;
-using System.Text.RegularExpressions;
-
-namespace AdventOfCode;
+﻿namespace AdventOfCode;
 
 public class Day04 : BaseDay
 {

@@ -8,6 +8,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="AoCHelper" Version="3.0.0" />
+		<PackageReference Include="Crayon" Version="2.0.69" />
 	</ItemGroup>
 
 	<PropertyGroup>
@@ -15,7 +16,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Update="Inputs\*">
+		<None Update="Inputs\*.txt">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		</None>
 	</ItemGroup>

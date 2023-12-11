@@ -1,7 +1,6 @@
 ﻿using Spectre.Console;
 using System.Drawing;
 using System.Text;
-using static AdventOfCode.Day10;
 using static Crayon.Output;
 
 namespace AdventOfCode;
@@ -84,7 +83,7 @@ public partial class Day10 : BaseDay
                 {
                         count++;
                   
-                    Field.Redraw([field], ConsoleColor.Green);
+                    Field.Redraw([field], ConsoleColor.Red);
                 }
             }
         }
@@ -210,7 +209,7 @@ public partial class Day10 : BaseDay
             PipeType.SouthWestBend => '╗',
             PipeType.SouthEastBend => '╔',
             _ => '?',
-        }).ToString()) : " ";
+        }).ToString()) : "·";
 
         public char Label { get; set; }
 

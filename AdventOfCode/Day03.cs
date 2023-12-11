@@ -35,7 +35,6 @@ public class Day03 : BaseDay
                 .Select(number => number.Value)
         .Sum();
 
-
     private static long CalculateGearRatios(Schematic schematic) => schematic.Symbols
         .Select(gear =>
             schematic.Numbers
